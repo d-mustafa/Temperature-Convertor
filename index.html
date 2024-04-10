@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TEMPERATURE CONVERTER</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <!--FAHRENHEIT-->
+    <h1>Fahrenheit to Celsius Convertor</h1>
+    <p class="formula">°C = (°F - 32) x 5 / 9</p>
+
+    <h2>Input</h2>
+    <label for="inputf">Temperature in Fahrenheit: </label>
+    <input type="number" id="inputf" /> <br />
+    <button id="convertbtnf">CONVERT F to C</button>
+
+    <h2>Output</h2>
+
+    <p>Temperature in Celcsius: <span id="output1">--------</span></p>
+
+    <hr />
+    <!-- CELSIUS -->
+    <h1>Celsius to Fahrenheit Convertor</h1>
+    <p class="formula">°F = (°C x 9/5) + 32</p>
+
+    <h2>Input</h2>
+    <label for="inputc">Temperature in Celsius: </label>
+    <input type="number" id="inputc" /> <br />
+    <button id="convertbtnc">CONVERT C to F</button>
+
+    <h2>Output</h2>
+
+    <p>Temperature in Fahrenheit: <span id="output2">--------</span></p>
+  </body>
+</html>
